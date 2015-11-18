@@ -2,3 +2,8 @@ collections:
   projects:
     output: true
 exclude: [node_modules, gulpfile.js, package.json]
+socialLinks:
+  - icon: github
+    url: "http://github.com/mattfeldman"
+  - icon: twitter
+    url: "http://twitter.com/mattfeldman"
