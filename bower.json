@@ -1,0 +1,20 @@
+{
+  "name": "mattfeldman.github.io",
+  "description": "personal website",
+  "authors": [
+    "Matt Feldman"
+  ],
+  "homepage": "https://github.com/mattfeldman/mattfeldman.github.io",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true,
+  "dependencies": {
+    "semantic": "semantic-ui#~2.1.6"
+  }
+}
