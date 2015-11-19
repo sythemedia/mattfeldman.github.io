@@ -13,19 +13,22 @@
               background: -webkit-linear-gradient(to left, #614385 , #516395); /* Chrome 10-25, Safari 5.1-6 */
               background: linear-gradient(to left, #614385 , #516395); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
           }
+          .ui.vertical.segment{
+              margin: 0;
+              border-radius: 0;
+          }
       </style>
   </head>
   <body>
-  <div class="ui inverted masthead header segment">
+  <div class="ui inverted masthead vertical header segment">
       <div class="ui center aligned text container">
           <i class="huge smile icon"></i>
           <h1  class="ui inverted header">matt feldman</h1>
           <h2 class="ui inverted sub header">COMING SOON (tm)</h2>
       </div>
   </div>
-  <div class="ui container">
-      {% include links.html %}
-  </div>
+  {% include projects.html %}
+  {% include links.html %}
   <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
   <script type="text/javascript" src="bower_components/semantic/dist/semantic.min.js"></script>
   <script>

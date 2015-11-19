@@ -1,3 +1,5 @@
-{% for social in site.socialLinks %}
-    <a href="{{social.url}}"><i class="ui {{social.icon}} link icon"></i></a>
-{% endfor %}
+<div class="ui center aligned vertical secondary violet segment">
+    {% for social in site.socialLinks %}
+        <a href="{{social.url}}"><i class="ui {{social.icon}} big circular inverted violet icon"></i></a>
+    {% endfor %}
+</div>

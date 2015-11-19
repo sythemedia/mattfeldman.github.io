@@ -1,0 +1,15 @@
+<div class="ui vertical violet segment">
+    <div class="ui container">
+        <h1 class="ui violet header">projects</h1>
+        <div class="ui one cards">
+            {% for project in site.projects %}
+                <div class="ui card">
+                    <div class="content">
+                        <div class="header">{{project.title}}</div>
+                        <div class="details">{{project.content}}</div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

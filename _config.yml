@@ -3,7 +3,13 @@ collections:
     output: true
 exclude: [node_modules, gulpfile.js, package.json]
 socialLinks:
+  - icon: linkedin
+    url: "http://linkedin.com/mafeld"
   - icon: github
     url: "http://github.com/mattfeldman"
   - icon: twitter
     url: "http://twitter.com/mattfeldman"
+  - icon: facebook
+    url: "http://facebook.com/mattfeldman"
+  - icon: medium
+    url: "http://medium.com/@mattfeldman"
