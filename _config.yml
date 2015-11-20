@@ -13,3 +13,22 @@ socialLinks:
     url: "http://facebook.com/mattfeldman"
   - icon: medium
     url: "http://medium.com/@mattfeldman"
+tags:
+  languages:
+    - C#
+    - Javascript
+    - Coffeescript
+    - Java
+    - LUA
+    - Python
+  frameworks:
+    - Meteor
+    - .net
+    - ASP
+    - Silverlight
+  applications:
+    - Visual Studio
+    - Unity
+    - Photoshop
+
+
