@@ -1,15 +1,28 @@
 <div class="ui vertical violet segment">
     <div class="ui container">
         <h1 class="ui violet header">projects</h1>
-        <div class="ui one cards">
             {% for project in site.projects %}
-                <div class="ui card">
-                    <div class="content">
-                        <div class="header">{{project.title}}</div>
-                        <div class="details">{{project.content}}</div>
+                <div class="ui raised segment">
+                    <h1 class="ui header">{{project.title}}
+                        {% if project.github %}
+                            <a href="{{project.github}}" class="ui right floated circular basic violet button"><i class="github icon"></i>open source</a>
+                        {% endif %}
+                    </h1>
+                    <div class="ui divider"></div>
+                    <div class="ui grid">
+                        <div class="seven wide column">
+                            <div class="details">{{project.content}}</div>
+                        </div>
+                        <div class="nine wide column">
+                            <img class="ui image" src="{{project.screenshots | first}}" alt="">
+                            <div class="ui divider"></div>
+                            {% for tag in project.tags %}
+                                <div class="ui basic violet label">{{tag}}</div>
+                            {% endfor %}
+                        </div>
                     </div>
                 </div>
-            {% endfor %}
+                {% endfor %}
         </div>
     </div>
 </div>
