@@ -1,0 +1,11 @@
+<div class="ui vertical padded raised inverted segment">
+    <div class="ui container">
+        <h1 class="ui inverted violet header">I know about:</h1>
+        {% for kvp in site.tags %}
+        <h1>{{kvp[0]}}</h1>
+            {% for tag in kvp[1] %}
+            <div class="ui big label">{{tag}}</div>
+            {% endfor %}
+        {% endfor %}
+    </div>
+</div>
