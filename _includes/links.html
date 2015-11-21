@@ -1,5 +1,12 @@
+<style>
+    .ui.violet.social.icon:hover{
+        transform: scale(1.2) translate(0,-0.1em);
+        background-color: #A291FB !important;
+        transition-duration: 300ms;
+    }
+</style>
 <div class="ui center aligned vertical secondary violet segment">
     {% for social in site.socialLinks %}
-        <a href="{{social.url}}"><i class="ui {{social.icon}} big circular inverted violet icon"></i></a>
+        <a href="{{social.url}}"><i class="ui social {{social.icon}} big circular inverted violet icon"></i></a>
     {% endfor %}
 </div>
