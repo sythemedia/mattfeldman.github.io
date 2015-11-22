@@ -3,9 +3,11 @@
         <h1 class="ui inverted violet header">I know about:</h1>
         {% for kvp in site.tags %}
         <h1>{{kvp[0]}}</h1>
+            <div class="ui big labels">
             {% for tag in kvp[1] %}
-            <div class="ui big label">{{tag}}</div>
+                <div class="ui label">{{tag}}</div>
             {% endfor %}
+            </div>
         {% endfor %}
     </div>
 </div>
