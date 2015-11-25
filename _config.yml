@@ -4,7 +4,7 @@ collections:
 exclude: [node_modules, gulpfile.js, package.json]
 socialLinks:
   - icon: linkedin
-    url: "http://linkedin.com/mafeld"
+    url: "http://linkedin.com/in/mafeld"
   - icon: github
     url: "http://github.com/mattfeldman"
   - icon: twitter
@@ -23,6 +23,7 @@ tags:
     - Python
   frameworks:
     - Meteor
+    - React
     - .net
     - ASP
     - Silverlight
