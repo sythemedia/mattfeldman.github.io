@@ -29,6 +29,7 @@ tags:
     - Silverlight
   applications:
     - Visual Studio
+    - SQL Server
     - Unity
     - Photoshop
 
